@@ -200,7 +200,7 @@ spec:
               echo "DB is ready!"
       containers:
         - name: backend
-          image: ghcr.io/iam-veeramalla/Jerney/jerney-backend:75da1da
+          image: ghcr.io/iam-veeramalla/jerney/jerney-backend:75da1da
           ports:
             - containerPort: 5000
               protocol: TCP
