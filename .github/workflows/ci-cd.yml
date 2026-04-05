@@ -259,3 +259,4 @@ jobs:
           git add k8s/jerney.yaml
           git diff --cached --quiet || git commit -m "ci: update k8s images to ${{ steps.sha.outputs.short }} [skip ci]"
           git push
+          #test
