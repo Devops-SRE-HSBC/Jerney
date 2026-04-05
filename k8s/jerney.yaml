@@ -361,6 +361,7 @@ spec:
     - port: 80
       targetPort: 8080
       protocol: TCP
+      
 
 ---
 # ---- NetworkPolicy: DB only accepts traffic from Backend ----
