@@ -1,0 +1,19 @@
+name: Multi-Step Demo
+
+on: workflow_dispatch
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 - pwd
+        run: pwd
+
+      - name: Step 2 - whoami
+        run: whoami
+
+      - name: Step 3 - System date
+        run: date
+
+      - name: Step 4 - Disk usage
+        run: df -h
