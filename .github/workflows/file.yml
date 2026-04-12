@@ -1,0 +1,16 @@
+name: File Operations
+
+on: workflow_dispatch
+
+jobs:
+  files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create file
+        run: echo "KK FUNDA TEST FILE" > demo.txt
+
+      - name: Show file content
+        run: cat demo.txt
+
+      - name: List directory
+        run: ls -l
